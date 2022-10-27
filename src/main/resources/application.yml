@@ -12,11 +12,11 @@ spring:
         - id: TW-CAR-RENTAL
           uri: lb://TW-CAR-RENTAL
           predicates:
-            - Path=/change**
+            - Path=/exchange**
         - id: EXCHANGE-SERVICE
           uri: lb://EXCHANGE-SERVICE
           predicates:
-            - Path=/exchange**
+            - Path=/change**
 
 eureka:
   client:
