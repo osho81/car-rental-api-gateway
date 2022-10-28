@@ -9,8 +9,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: TW-CAR-RENTAL
-          uri: lb://TW-CAR-RENTAL
+        - id: CAR-RENTAL
+          uri: lb://CAR-RENTAL
           predicates:
             - Path=/exchange**
         - id: EXCHANGE-SERVICE
