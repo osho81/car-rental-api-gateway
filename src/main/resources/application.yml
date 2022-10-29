@@ -12,7 +12,7 @@ spring:
         - id: CAR-RENTAL
           uri: lb://CAR-RENTAL
           predicates:
-            - Path=/exchange**
+            - Path=/api/v1/exchange**
         - id: EXCHANGE-SERVICE
           uri: lb://EXCHANGE-SERVICE
           predicates:
