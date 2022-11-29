@@ -10,4 +10,4 @@ API-gateway for the Car Rental system.
 - Server [registry](https://github.com/osho81/car-rental-service-registry) for the already available and eventual more future microservices
   
 
-For functions, details and purpose, see the project¨s main [Car Rental app](https://github.com/osho81/car-rental)
+For functions, details and purpose, see the project's main [Car Rental app](https://github.com/osho81/car-rental)
