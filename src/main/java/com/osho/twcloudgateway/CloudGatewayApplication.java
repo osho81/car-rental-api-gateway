@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class TwCloudGatewayApplication {
+public class CloudGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TwCloudGatewayApplication.class, args);
+		SpringApplication.run(CloudGatewayApplication.class, args);
 	}
 
 }

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.osho</groupId>
-	<artifactId>tw-cloud-gateway</artifactId>
+	<artifactId>cloud-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tw-cloud-gateway</name>
+	<name>cloud-gateway</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
