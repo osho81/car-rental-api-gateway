@@ -9,15 +9,18 @@ spring:
   cloud:
     gateway:
       routes:
-#        Change to car-rental-v2 if use the "frontend adjusted version" of car-rental
+#       Change to car-rental-v2 if use the "frontend adjusted version" of car-rental
+#       If url from e.g. postman is this port 7070, it routes through here to this endpoint
         - id: CAR-RENTAL
           uri: lb://CAR-RENTAL
           predicates:
             - Path=/api/v1/exchange**
+#       If url from e.g. postman is this port 7070, it routes through here to this endpoint
+#       Reason for last slash / is because this takes a pathvar (amount)
         - id: EXCHANGE-SERVICE
           uri: lb://EXCHANGE-SERVICE
           predicates:
-            - Path=/change**
+            - Path=/change/**
 
 eureka:
   client:
