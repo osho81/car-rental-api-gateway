@@ -9,6 +9,7 @@ spring:
   cloud:
     gateway:
       routes:
+#        Change to car-rental-v2 if use the "frontend adjusted version" of car-rental
         - id: CAR-RENTAL
           uri: lb://CAR-RENTAL
           predicates:
